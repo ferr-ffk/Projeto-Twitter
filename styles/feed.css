@@ -1,0 +1,9 @@
+.feed {
+	display: flex;
+	flex-direction: column;
+}
+
+.tweet {
+    border-bottom: 0.5px solid var(--borda-cor);
+    padding: 1.5rem;
+}

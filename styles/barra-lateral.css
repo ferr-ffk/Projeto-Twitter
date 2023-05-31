@@ -1,0 +1,21 @@
+.barra-lateral {
+    margin: 0rem;
+	font-size: 1.1rem;
+	position: fixed;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	width: 16rem;
+	display: flex;
+	flex-direction: column;
+	padding-left: 3.25rem;
+	border-right: .5px solid var(--borda-cor);
+}
+
+.barra-lateral-secao {
+	text-decoration: none;
+}
+
+.barra-lateral-secao-nome {
+	filter: blur(.025rem);
+}
